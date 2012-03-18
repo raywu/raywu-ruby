@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Hi, my name is Ray. This documents my adventure with Ruby & Rails.
+Hi, my name is Ray. This is my journey with Ruby & Rails.
 
 <ul>
 <li><a href="http://www.about.me/raywu">About Ray Wu</a></li>
