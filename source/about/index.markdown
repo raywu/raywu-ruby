@@ -9,6 +9,6 @@ footer: true
 
 Hi, my name is Ray. This documents my adventure with Ruby & Rails.
 
-<p><a href="http://www.about.me/raywu">About Me</a></p>
-<p><a href="http://www.github.com/raywu">Github</a></p>
-<p><a href="http://www.twitter.com/raymond_wu">Twitter</a></p>
+<p><a href="http://www.about.me/raywu">About Ray Wu</a></p>
+<p><a href="http://www.github.com/raywu">Ray's Github</a></p>
+<p><a href="http://www.twitter.com/raymond_wu">Ray's Twitter</a></p>
