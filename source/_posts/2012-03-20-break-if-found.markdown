@@ -10,8 +10,7 @@ Ruby blocks are awesome. I find myself using a lot of enumerables & enumerators.
 
 Not knowing how to break out of a block is a problem I ran into a lot.
 
-In Problem 9 of <a href="http://www.projecteuler.net">Project
-Euler</a>, the answer has to satisfy the condition of x^2 + y^2 = c^2.
+In Problem 9 of <a href="http://www.projecteuler.net">Project Euler</a>, the answer has to satisfy the condition of x ^ 2 + y ^ 2 = c ^ 2.
 
 {% gist 2093533 problem9false.rb %}
 
