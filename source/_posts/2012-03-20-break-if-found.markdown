@@ -21,7 +21,7 @@ Printing out 'found' displays the answer in an array. This took a while.
 
 {% gist 2093533 problem9.rb %}
 
-In this scenario, by setting 'found = false' (line 8), it gives the block a heads up to break out of the loop, when 'found' returns true.
+In this scenario, by setting 'found = false' (line 1), it gives the block a heads up to break out of the loop, when 'found' returns true.
 
 This dramatically reduces the time to run the script.
 
