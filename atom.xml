@@ -1,101 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>a bystander's contribution</title>
-  <meta name="author" content="Ray Wu">
-
-  
-  <meta name="description" content="Problem 11: In the 2020 grid below, four numbers along a diagonal line have been marked in red. 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://raywu.github.com/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="a bystander's contribution" type="application/atom+xml">
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">a bystander's contribution</a></h1>
-  
-    <h2>Ruby, Rails & Life as a Student</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:raywu.github.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
-</ul>
-
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[a bystander's contribution]]></title>
+  <link href="http://raywu.github.com/atom.xml" rel="self"/>
+  <link href="http://raywu.github.com/"/>
+  <updated>2012-10-02T05:05:53+10:00</updated>
+  <id>http://raywu.github.com/</id>
+  <author>
+    <name><![CDATA[Ray Wu]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2012/10/02/project-euler-problem-11-ruby/">Project Euler Problem 11: Ruby</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
   
-
-
-<time datetime="2012-10-02T02:28:00+10:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3><a href="http://projecteuler.net/problem=11">Problem 11:</a></h3>
+  <entry>
+    <title type="html"><![CDATA[Project Euler Problem 11: Ruby]]></title>
+    <link href="http://raywu.github.com/blog/2012/10/02/project-euler-problem-11-ruby/"/>
+    <updated>2012-10-02T02:28:00+10:00</updated>
+    <id>http://raywu.github.com/blog/2012/10/02/project-euler-problem-11-ruby</id>
+    <content type="html"><![CDATA[<h3><a href="http://projecteuler.net/problem=11">Problem 11:</a></h3>
 
 
 <p><em>In the 2020 grid below, four numbers along a diagonal line have been marked in red.</em></p>
@@ -269,42 +192,15 @@ puts &quot;The highest product is #{$max}&quot;</code></pre></noscript></div>
 
 
 <p>The diagnal parts have much room for improvement. The current codes are not optimal. They also loop through a ton codes (<strong>arr_utb.uniq</strong> shed much light). Otherwise, I am pretty happy with the refactoring jobs I did up top for <strong>compute(array)</strong> and <strong>max?(x)</strong>.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/20/break-if-found/">Break if Found</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-20T22:32:00+11:00" pubdate data-updated="true">Mar 20<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Ruby blocks are awesome. I find myself using a lot of enumerables &amp; enumerators.</p>
+  <entry>
+    <title type="html"><![CDATA[Break if found]]></title>
+    <link href="http://raywu.github.com/blog/2012/03/20/break-if-found/"/>
+    <updated>2012-03-20T22:32:00+11:00</updated>
+    <id>http://raywu.github.com/blog/2012/03/20/break-if-found</id>
+    <content type="html"><![CDATA[<p>Ruby blocks are awesome. I find myself using a lot of enumerables &amp; enumerators.</p>
 
 <p>Not knowing how to break out of a block is a problem I ran into a lot.</p>
 
@@ -359,42 +255,15 @@ Printing out &#8216;found&#8217; displays the answer in an array. This took a wh
 
 
 <p>Blocks are awesome; but knowing when to break out of a loop is double awesome.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/18/omniauth-environment-handling/">OmniAuth Environment Handling</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-18T12:01:00+11:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>OmniAuth is very powerful, and it&#8217;s dramatically improved after 2.0 came out. I only started to feel more comfortable with its magic after the third time using it.</p>
+  <entry>
+    <title type="html"><![CDATA[OmniAuth Environment Handling]]></title>
+    <link href="http://raywu.github.com/blog/2012/03/18/omniauth-environment-handling/"/>
+    <updated>2012-03-18T12:01:00+11:00</updated>
+    <id>http://raywu.github.com/blog/2012/03/18/omniauth-environment-handling</id>
+    <content type="html"><![CDATA[<p>OmniAuth is very powerful, and it&#8217;s dramatically improved after 2.0 came out. I only started to feel more comfortable with its magic after the third time using it.</p>
 
 <p>One thing I didn&#8217;t do before, was to set separate authentication keys
 for development and production environments.</p>
@@ -549,42 +418,15 @@ end
 
 
 <p>This way, I can also set different call-back URL on Twitter and Facebook, and never have to touch the settings again.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/03/17/hello-world/">Hello World!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-17T20:38:00+11:00" pubdate data-updated="true">Mar 17<span>th</span>, 2012</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A few months earlier, I started tackling <a
+  <entry>
+    <title type="html"><![CDATA[Hello World!]]></title>
+    <link href="http://raywu.github.com/blog/2012/03/17/hello-world/"/>
+    <updated>2012-03-17T20:38:00+11:00</updated>
+    <id>http://raywu.github.com/blog/2012/03/17/hello-world</id>
+    <content type="html"><![CDATA[<p>A few months earlier, I started tackling <a
 href="http://www.projecteuler.net">Project Euler</a>. Here is one of the
 lessons I learned:</p>
 
@@ -640,165 +482,7 @@ So, now what?</p>
 <p>Granted, had my MacBook Pro had more computing power, and my memories a gizzillion GBs, I could have just left the script run until it got all the factors for 600851475143.</p>
 
 <p>Okay, okay, IT&#8217;S NOT AN INFINITE LOOP. But my point is, if you have an inkling that you will run into this kind of technical problems (Hello Houston!), put a cap on it.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2012/10/02/project-euler-problem-11-ruby/">Project Euler Problem 11: Ruby</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/20/break-if-found/">Break if found</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/18/omniauth-environment-handling/">OmniAuth Environment Handling</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/17/hello-world/">Hello World!</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/raywu">@raywu</a> on GitHub
-  
-  <script type="text/javascript">
-    $.domReady(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'raywu',
-            count: 0,
-            skip_forks: true,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
-
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("raywu", 4, false);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/raywu" class="twitter-follow-button" data-show-count="false">Follow @raywu</a>
-  
-</section>
-
-
-
-<section class="googleplus googleplus-hidden">
-  <h1>
-    <a href="https://plus.google.com/102573216451517008752?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-</section>
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Ray Wu -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-<script type="text/javascript">
-      var disqus_shortname = 'raywu';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>
