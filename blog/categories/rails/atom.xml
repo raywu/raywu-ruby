@@ -4,7 +4,7 @@
   <title><![CDATA[Category: rails | a bystander's contribution]]></title>
   <link href="http://raywu.github.com/blog/categories/rails/atom.xml" rel="self"/>
   <link href="http://raywu.github.com/"/>
-  <updated>2012-10-02T05:05:53+10:00</updated>
+  <updated>2012-10-20T15:07:37+08:00</updated>
   <id>http://raywu.github.com/</id>
   <author>
     <name><![CDATA[Ray Wu]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[OmniAuth Environment Handling]]></title>
     <link href="http://raywu.github.com/blog/2012/03/18/omniauth-environment-handling/"/>
-    <updated>2012-03-18T12:01:00+11:00</updated>
+    <updated>2012-03-18T12:01:00+08:00</updated>
     <id>http://raywu.github.com/blog/2012/03/18/omniauth-environment-handling</id>
     <content type="html"><![CDATA[<p>OmniAuth is very powerful, and it's dramatically improved after 2.0 came out. I only started to feel more comfortable with its magic after the third time using it.</p>
 

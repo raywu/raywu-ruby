@@ -9,7 +9,9 @@
   <meta name="author" content="Ray Wu">
 
   
-  <meta name="description" content="Problem 11: In the 2020 grid below, four numbers along a diagonal line have been marked in red. 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 &hellip;">
+  <meta name="description" content="Today I tried to do bundle install: $ bundle install
+Fetching gem metadata from http://rubygems.org/.
+Error Bundler::HTTPError during request to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,6 +74,59 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2012/10/20/til-rubygems-dot-org-is-partially-blocked-in-china/">TIL RubyGems.org Is Partially Blocked in China</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-20T14:02:00+08:00" pubdate data-updated="true">Oct 20<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today I tried to do <em>bundle install</em>:</p>
+
+<div><script src='https://gist.github.com/3922248.js?file=ConsoleRubyGems.rb'></script>
+<noscript><pre><code>$ bundle install
+Fetching gem metadata from http://rubygems.org/.
+Error Bundler::HTTPError during request to dependency API
+Fetching full source index from http://rubygems.org/
+^C
+Quitting...</code></pre></noscript></div>
+
+
+<p>According to the mirror site below, it is because RubyGems.org is being hosted on Amazon S3 AFAIK, and Amazon S3 is partially blocked (I have no way of knowing for sure).</p>
+
+<p>A friend showed me a neat trick, which every Rails engineer first learns being behind the <em>Great Firewall of China</em>:</p>
+
+<p>Replace the <strong>source</strong> with this line in GemFile: <strong>source &#8220;http://ruby.taobao.org&#8221;</strong></p>
+
+<p>Go visit the <a href="http://ruby.taobao.org/">mirror site</a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2012/10/02/project-euler-problem-11-ruby/">Project Euler Problem 11: Ruby</a></h1>
     
     
@@ -88,7 +143,7 @@
   
 
 
-<time datetime="2012-10-02T02:28:00+10:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
+<time datetime="2012-10-02T02:28:00+08:00" pubdate data-updated="true">Oct 2<span>nd</span>, 2012</time>
         
       </p>
     
@@ -297,7 +352,7 @@ puts &quot;The highest product is #{$max}&quot;</code></pre></noscript></div>
   
 
 
-<time datetime="2012-03-20T22:32:00+11:00" pubdate data-updated="true">Mar 20<span>th</span>, 2012</time>
+<time datetime="2012-03-20T22:32:00+08:00" pubdate data-updated="true">Mar 20<span>th</span>, 2012</time>
         
       </p>
     
@@ -387,7 +442,7 @@ Printing out &#8216;found&#8217; displays the answer in an array. This took a wh
   
 
 
-<time datetime="2012-03-18T12:01:00+11:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
+<time datetime="2012-03-18T12:01:00+08:00" pubdate data-updated="true">Mar 18<span>th</span>, 2012</time>
         
       </p>
     
@@ -577,7 +632,7 @@ end
   
 
 
-<time datetime="2012-03-17T20:38:00+11:00" pubdate data-updated="true">Mar 17<span>th</span>, 2012</time>
+<time datetime="2012-03-17T20:38:00+08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2012</time>
         
       </p>
     
@@ -658,6 +713,10 @@ So, now what?</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/10/20/til-rubygems-dot-org-is-partially-blocked-in-china/">TIL RubyGems.org is partially blocked in China</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2012/10/02/project-euler-problem-11-ruby/">Project Euler Problem 11: Ruby</a>

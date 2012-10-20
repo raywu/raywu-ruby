@@ -4,7 +4,7 @@
   <title><![CDATA[Category: euler | a bystander's contribution]]></title>
   <link href="http://raywu.github.com/blog/categories/euler/atom.xml" rel="self"/>
   <link href="http://raywu.github.com/"/>
-  <updated>2012-10-02T05:05:53+10:00</updated>
+  <updated>2012-10-20T15:07:37+08:00</updated>
   <id>http://raywu.github.com/</id>
   <author>
     <name><![CDATA[Ray Wu]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Project Euler Problem 11: Ruby]]></title>
     <link href="http://raywu.github.com/blog/2012/10/02/project-euler-problem-11-ruby/"/>
-    <updated>2012-10-02T02:28:00+10:00</updated>
+    <updated>2012-10-02T02:28:00+08:00</updated>
     <id>http://raywu.github.com/blog/2012/10/02/project-euler-problem-11-ruby</id>
     <content type="html"><![CDATA[<h3><a href="http://projecteuler.net/problem=11">Problem 11:</a></h3>
 
@@ -196,7 +196,7 @@ puts &quot;The highest product is #{$max}&quot;</code></pre></noscript></div>
   <entry>
     <title type="html"><![CDATA[Break if found]]></title>
     <link href="http://raywu.github.com/blog/2012/03/20/break-if-found/"/>
-    <updated>2012-03-20T22:32:00+11:00</updated>
+    <updated>2012-03-20T22:32:00+08:00</updated>
     <id>http://raywu.github.com/blog/2012/03/20/break-if-found</id>
     <content type="html"><![CDATA[<p>Ruby blocks are awesome. I find myself using a lot of enumerables &amp; enumerators.</p>
 

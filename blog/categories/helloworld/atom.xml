@@ -4,7 +4,7 @@
   <title><![CDATA[Category: helloworld | a bystander's contribution]]></title>
   <link href="http://raywu.github.com/blog/categories/helloworld/atom.xml" rel="self"/>
   <link href="http://raywu.github.com/"/>
-  <updated>2012-10-02T05:05:53+10:00</updated>
+  <updated>2012-10-20T15:07:37+08:00</updated>
   <id>http://raywu.github.com/</id>
   <author>
     <name><![CDATA[Ray Wu]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Hello World!]]></title>
     <link href="http://raywu.github.com/blog/2012/03/17/hello-world/"/>
-    <updated>2012-03-17T20:38:00+11:00</updated>
+    <updated>2012-03-17T20:38:00+08:00</updated>
     <id>http://raywu.github.com/blog/2012/03/17/hello-world</id>
     <content type="html"><![CDATA[<p>A few months earlier, I started tackling <a
 href="http://www.projecteuler.net">Project Euler</a>. Here is one of the
