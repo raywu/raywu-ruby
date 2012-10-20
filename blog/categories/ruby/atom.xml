@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ruby | a bystander's contribution]]></title>
   <link href="http://raywu.github.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://raywu.github.com/"/>
-  <updated>2012-10-20T15:20:49+08:00</updated>
+  <updated>2012-10-20T15:26:33+08:00</updated>
   <id>http://raywu.github.com/</id>
   <author>
     <name><![CDATA[Ray Wu]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[TIL RubyGems.org is partially blocked in China]]></title>
+    <link href="http://raywu.github.com/blog/2012/10/20/til-rubygems-dot-org-is-partially-blocked-in-china/"/>
+    <updated>2012-10-20T14:02:00+08:00</updated>
+    <id>http://raywu.github.com/blog/2012/10/20/til-rubygems-dot-org-is-partially-blocked-in-china</id>
+    <content type="html"><![CDATA[<p>Today I tried to do <em>bundle install</em>:</p>
+
+<p><div><script src='https://gist.github.com/3922248.js?file=ConsoleRubyGems.rb'></script>
+<noscript><pre><code>$ bundle install
+Fetching gem metadata from http://rubygems.org/.
+Error Bundler::HTTPError during request to dependency API
+Fetching full source index from http://rubygems.org/
+^C
+Quitting...</code></pre></noscript></div>
+</p>
+
+<p>According to the mirror site below, it is because RubyGems.org is being hosted on Amazon S3 AFAIK, and Amazon S3 is partially blocked (I have no way of knowing for sure).</p>
+
+<p>A friend showed me a neat trick, which every Rails engineer first learns being behind the <em>Great Firewall of China</em>:</p>
+
+<p>Replace the <strong>source</strong> with this line in GemFile: <strong>source "http://ruby.taobao.org"</strong></p>
+
+<p>Go visit the <a href="http://ruby.taobao.org/">mirror site</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Project Euler Problem 11: Ruby]]></title>
