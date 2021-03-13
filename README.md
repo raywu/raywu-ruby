@@ -1,4 +1,4 @@
-# raywu.github.com
+# raywu.github.com (depcrecated)
 Octopress
 
 # Blogging
